@@ -1,7 +1,10 @@
 import './style.css';
+import initPage from './init-page';
 import HeroImg from './assets/cafe.jpg';
 
 console.log('hello world');
+
+initPage();
 
 const content = document.querySelector('#content');
 const heroDiv = document.createElement('div');
