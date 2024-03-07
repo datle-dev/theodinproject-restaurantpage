@@ -9,3 +9,13 @@
     max-width: 1200px;
     border: 1px solid black;
 }
+
+#hero {
+    width: 100%;
+}
+
+#hero > img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
