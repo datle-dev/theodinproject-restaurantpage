@@ -1,6 +1,6 @@
 import HeroImg from './assets/cafe.jpg';
 
-const initPage = () => {
+const createHomePage = () => {
     const wrapper = document.createElement('article');
 
     const heading = document.createElement('h1');
@@ -29,4 +29,4 @@ const initPage = () => {
     return wrapper;
 }
 
-export default initPage;
+export default createHomePage;
