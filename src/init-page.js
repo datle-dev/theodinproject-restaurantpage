@@ -26,6 +26,7 @@ const initPage = () => {
     wrapper.appendChild(blurb1);
     wrapper.appendChild(blurb2);
 
+    return wrapper;
 }
 
 export default initPage;

@@ -2,8 +2,8 @@ import './style.css';
 import initPage from './init-page';
 
 
-initPage();
+const homePage = initPage();
 
 const content = document.querySelector('#content');
 
-
+content.appendChild(homePage);
